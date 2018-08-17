@@ -1,4 +1,7 @@
-my name is akhilesh kumar and i am the creator of this repository
-and branches lajlf;a
- l;kajfka
- kjjalj
+1. create database
+	statement:
+	
+	CREATE DATABASE programming_test_php;
+
+	
+	
