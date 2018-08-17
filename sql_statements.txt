@@ -27,3 +27,9 @@
 	SELECT a.Agent_Name AS Agent, p.PolicyDate, p.PolicyAmount, p.Commission
 	FROM policy_details AS p
 	LEFT JOIN agent_master AS a ON p.Agent_No=a.Agent_No;
+
+5. join first and second table
+	statement:
+
+	SELECT * FROM agent_master
+	NATURAL JOIN policy_details;
