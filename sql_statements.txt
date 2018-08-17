@@ -7,5 +7,7 @@
 	statement:
 	
 	CREATE TABLE Agent_Master
-	(Agent_no INT AUTO_INCREMENT PRIMARY KEY,
+	(Agent_No INT AUTO_INCREMENT PRIMARY KEY,
 	Agent_Name VARCHAR(25) NOT NULL);
+
+3. create table
