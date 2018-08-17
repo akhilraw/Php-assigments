@@ -33,3 +33,13 @@
 
 	SELECT * FROM agent_master
 	NATURAL JOIN policy_details;
+
+6. st1(to select agent no from agent_master)
+	statement:
+	
+	SELECT Agent_No FROM agent_master;
+
+7.st2(to select agent name from agent_master)
+	statement:
+
+	SELECT Agent_Name FROM agent_master;
