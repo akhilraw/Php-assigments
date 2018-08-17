@@ -20,3 +20,10 @@
 	CustomerName VARCHAR(25) NOT NULL,
 	PolicyAmount INT NOT NULL,
 	Commission DECIMAL(15,2));
+
+4. create final display_report
+	statement:
+
+	SELECT a.Agent_Name AS Agent, p.PolicyDate, p.PolicyAmount, p.Commission
+	FROM policy_details AS p
+	LEFT JOIN agent_master AS a ON p.Agent_No=a.Agent_No;
