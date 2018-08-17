@@ -10,4 +10,13 @@
 	(Agent_No INT AUTO_INCREMENT PRIMARY KEY,
 	Agent_Name VARCHAR(25) NOT NULL);
 
-3. create table
+3. create table policy_details
+	statement:
+
+	CREATE TABLE Policy_Details
+	(Policy_No INT AUTO_INCREMENT PRIMARY KEY,
+	Agent_No INT PRIMARY KEY,
+	PolicyDate DATE NOT NULL,
+	CustomerName VARCHAR(25) NOT NULL,
+	PolicyAmount INT NOT NULL,
+	Commission DECIMAL(15,2));
