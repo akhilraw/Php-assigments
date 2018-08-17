@@ -15,7 +15,7 @@
 
 	CREATE TABLE Policy_Details
 	(Policy_No INT AUTO_INCREMENT PRIMARY KEY,
-	Agent_No INT PRIMARY KEY,
+	Agent_No INT,
 	PolicyDate DATE NOT NULL,
 	CustomerName VARCHAR(25) NOT NULL,
 	PolicyAmount INT NOT NULL,
